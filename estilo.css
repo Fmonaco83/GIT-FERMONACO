@@ -10,8 +10,10 @@ body {
 }
 h2, h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    transition: all 3s;
 }
+ 
+
 /* Contenedor */
 .contenedor {
     width: 100%;
@@ -44,10 +46,13 @@ h2, h4 {
     grid-area: logo;
     width: 250px;
     height: 180px;
+    transition: all 1s;
+    
 }
 .logo:hover{
     color: white;
     opacity: 50%;
+    
 }
 /* Barra de Navegacion */
 .nav{
@@ -69,12 +74,15 @@ h2, h4 {
     margin: 0 10px;
     align-items: center;
     align-content: center;
+    transition: all 2s;
+    
+    
 }
 .nav1:hover{
     background-color: white;
     opacity: 50%;
-    height: 60px;
-   
+    height: 30px;
+    color: gray;
 }
 /* Main */
 .main{
@@ -88,8 +96,7 @@ h2, h4 {
     height: 500px;
     justify-content: space-evenly;
     padding-top: 10px;    
-    padding-bottom: 10px;
-}
+    padding-bottom: 10px;}  
 .imgs {
     width: 300px;
     border-radius: 5px;
@@ -106,6 +113,11 @@ h2, h4 {
     top: 50px;   
     font-family: 'Fredoka One', cursive; 
     font-size: 30px;
+    transition: all 2s;
+}
+.texA:hover{
+    transform: scale(1.1, 1.1)
+    
 }
 .texB{
     display: flex;
@@ -116,9 +128,12 @@ h2, h4 {
     align-items: center;
     position: relative;
     top:70px;
-    
     font-size: 40px;
-
+    transition: all 1s;
+    color: blueviolet;
+}
+.texB:hover{
+    transform: scale(1.5, 1.5)
 }
 
 /* Galeria */
